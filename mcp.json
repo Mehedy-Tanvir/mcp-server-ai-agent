@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "myCalendarData": {
+      "command": "node",
+      "args": ["/server.js"],
+      "env": {
+        "GOOGLE_PUBLIC_API_KEY": "value",
+        "CALENDAR_ID": "value"
+      }
+    }
+  }
+}

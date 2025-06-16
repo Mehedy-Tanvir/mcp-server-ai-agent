@@ -2,11 +2,18 @@
   "name": "mcp-server-ai-agent-ts",
   "version": "1.0.0",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": ""
+  "description": "",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.12.3",
+    "dotenv": "^16.5.0",
+    "googleapis": "^150.0.1",
+    "zod": "^3.25.64"
+  }
 }
